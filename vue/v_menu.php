@@ -33,8 +33,6 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item" href="#">Mon dossier</a>
                       <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="./?action=inscription">Inscription</a>
-                      <a class="dropdown-item" href="./?action=connexion">Connexion</a>
                       <a class="dropdown-item" href="#">Mes prêts en cours</a>
                       <a class="dropdown-item" href="#">Mes réservations</a>
                       <a class="dropdown-item" href="#">Mes frais</a>
@@ -42,15 +40,12 @@
                       <a class="dropdown-item" href="#">Historique des prêts</a>
                       <a class="dropdown-item" href="#">Historique de recherche</a>
                       <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Deconnexion</a>
+                      <a class="nav-link" href="./controleur/c_deconnexion.php">Déconnexion</a>
                     </div>
-                  </li>
-                                    <li class="nav-item">
-                    <a class="nav-link" href="./controleur/c_deconnexion.php">Logout</a>
-                  </li>
+                  
                   <?php } else { ?>
                   <li class="nav-item">
-                    <a class="nav-link" href="./?action=connexion">Connexion</a>
+                    <a class="nav-link" href="./?action=connexion">Dossier Abonnée</a>
                   </li>
                   <?php } ?>
                   
